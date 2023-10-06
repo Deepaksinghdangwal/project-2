@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== REMIXICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/product.css">
+
+  <!-- fontanswome Links -->
+
+  <script src="https://kit.fontawesome.com/71906445dd.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="./assets/css/css/bootstrap.min.css">
+
+  <!-- slider Links -->
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <title> Contact Us</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="#" class="nav__logo">
+          <i class="ri-planet-line"></i> Tech Synergy Global
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+
+          <!--=============== DROPDOWN 1 ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Services <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+              <li>
+                <a href="hazardous-area-safety-solution.html" class="dropdown__link py-2">
+                  Hazardous Area Safety Solutions
+                </a>
+              </li>
+
+              <li>
+                <a href="electric-heat-tracing-system.html" class="dropdown__link py-2">
+                  Heat Tracing System
+                </a>
+              </li>
+
+              <li>
+                <a href="switch-gear-and-electrical-bulk.html" class="dropdown__link py-2">
+                  Switch Gear and Electrical Bulk
+                </a>
+              </li>
+              <li>
+                <a href="pumps-and-values.html" class="dropdown__link py-2">
+                  Pumps & Value
+                </a>
+              </li>
+              <li>
+                <a href="hydrocarbon-exploration-and-field-development.html" class="dropdown__link  py-2">
+                  Hydrocarbon Exploration
+                </a>
+              </li>
+              <li>
+                <a href="renewable-and-hybrid-energy.html" class="dropdown__link py-2">
+                    Renewable & Hybrid
+                </a>
+             </li>
+
+             <li>
+              <a href="analytical-instrumentation.html" class="dropdown__link  py-2">
+                  Analytical Instrumentation
+              </a>
+           </li>
+            </ul>
+          </li>
+
+          <li><a href="product.html" class="nav__link">Products</a></li>
+
+          <li><a href="support.html" class="nav__link">Support</a></li>
+
+          <li><a href="contact-us.html" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="contact-image-banner">
+    <img src="./assets/images/bg-image/contact.jpg"  alt="">
+  </div>
+
+  <section class="contact-page-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-map-marked"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>address</h2>
+                <span>1215 Lorem Ipsum, Ch 176080 </span>
+                <span>Chandigarh , INDIA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>E-mail</h2>
+                <span>info@LoremIpsum.com</span>
+                <span>yourmail@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <div class="contact-info-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-info-text">
+                <h2>office time</h2>
+                <span>Mon - Thu 9:00 am - 4.00 pm</span>
+                <span>Thu - Mon 10.00 pm - 5.00 pm</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="contact-page-form" method="post">
+            <h2>Get in Touch</h2>
+            <form action="contact-mail.php" method="post">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="single-input-field">
+                    <input type="text" placeholder="Your Name" name="name" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="single-input-field">
+                    <input type="email" placeholder="E-mail" name="email" required />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="single-input-field">
+                    <input type="text" placeholder="Phone Number" name="phone" />
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <div class="single-input-field">
+                    <input type="text" placeholder="Subject" name="subject" />
+                  </div>
+                </div>
+                <div class="col-md-12 message-input">
+                  <div class="single-input-field">
+                    <textarea placeholder="Write Your Message" name="message"></textarea>
+                  </div>
+                </div>
+                <div class="single-input-fieldsbtn">
+                  <input type="submit" value="Send Now" />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contact-page-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.02912911311!2d76.69348873658222!3d30.73506264436677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1553497921355"
+              width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer section start -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="row block">
+        <div class="col">
+          <a href="index.html"><img src=""></a>
+          <div class="footer-about">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+              been the
+              industry's standard dummy text ever since the 1500s, </p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="useful-link">
+            <h2>Useful Links</h2>
+            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+            <div class="use-links">
+              <li><a href="index.html"><i class="fa-solid fa-angles-right"></i> Home</a></li>
+              <li><a href="about.html"><i class="fa-solid fa-angles-right"></i> About Us</a></li>
+              <li><a href="gallery.html"><i class="fa-solid fa-angles-right"></i> Gallery</a></li>
+              <li><a href="contact.html"><i class="fa-solid fa-angles-right"></i> Contact</a></li>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="social-links">
+            <h2>Follow Us</h2>
+            <img src="./assets/images/about/home_line.png" alt="">
+            <div class="social-icons">
+              <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+              <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in"></i> Linkedin</a></li>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="address">
+            <h2>Address 1</h2>
+            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+            <div class="address-links">
+              <li class="address1"><i class="fa-solid fa-location-dot"></i> R-15, Ritu Complex,
+                Main Market Shakarpur
+                Delhi <br> 110 092 (India)</li>
+              <li><a href=""><i class="fa-solid fa-phone"></i>+91 9811295381</a></li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> +911142401674,
+                  39217897</a></li>
+              <li><a href=""><i class="fa-solid fa-fax"></i>+971 11 22458663</a></li>
+              <li><a href=""><i class="fa-solid fa-envelope"></i>indiasales@techsynergy.org</a></li>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="address">
+            <h2>Address 2</h2>
+            <img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+            <div class="address-links">
+              <li class="address1"><i class="fa-solid fa-location-dot"></i>2303, HDS Business Centre,
+                Cluster M
+                Jumeirah Lakes Towers
+                Dubai, UAE
+              </li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> +971569712266</a></li>
+              <li><a href=""><i class="fa-solid fa-phone"></i> +971 4 5542292</a></li>
+              <li><a href=""><i class="fa-solid fa-fax"></i>+97145542248</a></li>
+              <li><a href=""><i class="fa-solid fa-envelope"></i>sales@techsynergy.org
+                </a></li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer section end -->
+  <!-- footer copy right section start -->
+  <section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>
+      Copyright © 2023 Tech Synergy Global All rights reserved. Powered By <a href="https://www.swiftdigimedia.com/" target="_blank">SwiftMediaDigitalAlliance</a>
+
+
+    </div>
+
+  </section>
+  </section>
+  <!-- footer copy right section end -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/slider.js"></script>
+</body>
+
+</html>
